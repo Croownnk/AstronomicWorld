@@ -1,2 +1,122 @@
-(Doctype! HTMl)
+<!DOCTYPE html>
+
+<!-- 
+Documentación lang="es"
+indica al navegador y a los motores de búsqueda que el idioma principal del contenido de esa página web es el español -->
+<html lang="es">
+    
+<head>
+    <!--Es el estándar que le dice al navegador que tu web utiliza caracteres especiales. Gracias a esto, el navegador puede mostrar correctamente las tildes, las eñes (ñ) y hasta los emojis.
+
+ --> <meta charset="UTF-8">
+   <!-- Le dice al navegador: "Haz que el ancho de la página se adapte al ancho de la pantalla del dispositivo
+--> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstronomicWorld</title> 
+    <meta name="description" content="Este sitio web está dirigido a todo público y tiene la finalidad de informar y dar a conocer aspectos interesantes sobre el espacio. 🚀"> 
+    <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" href="Estilos%20CSS/index_style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>  
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Astronomic<span>World</span></div>
+        <div class="nav-right">
+            <ul class="nav-links">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="Web/Información/Información.html">INFORMACIÓN</a></li>
+                <li><a href="#">TIENDA</a></li>
+                <li><a href="#">PELÍCULAS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+            <a href="#menu" class="open-menu-btn">
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h3>Bienvenido a</h3>
+            <h1>Astronomic<span>World</span></h1>
+            <h4>Explora el universo</h4>
+            <h4>Aprende, compra y disfruta</h4>
+            
+            <a href="Web/Información/Información.html" class="btn-explorar">EXPLORAR</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="feature-box">
+            <i class="fa-solid fa-globe icon"></i>
+            <h2>INFORMA</h2>
+            <p>Aprende sobre el universo</p>
+        </div>
+        
+        <div class="feature-box">
+            <i class="fa-solid fa-shopping-cart icon"></i>
+            <h2>VENDE</h2>
+            <p>Productos astronómicos de calidad</p>
+        </div>
+        
+        <div class="feature-box">
+            <i class="fa-solid fa-circle-play icon"></i>
+            <h2>ENTRETIENE</h2>
+            <p>Películas, datos y mucho más</p>
+        </div>
+    </section>
+
+    <div id="menu" class="menu-overlay">
+        <a href="#" class="overlay-close-background"></a>
+        
+        <div class="menu-box">
+            <div class="menu-header">
+                <a href="#" class="close-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </a>
+                <div class="menu-logo">AstronomicWorld</div>
+            </div>
+
+            <ul class="menu-list">
+                <li class="active">
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i> Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="Web/Información/Información.html">
+                        <i class="fa-regular fa-bookmark"></i> Información
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping" style="font-size: 14px;"></i> Tienda
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-circle-play"></i> Películas
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-regular fa-envelope"></i> Contacto
+                    </a>
+                </li>
+            </ul>
+
+            <div class="menu-footer">
+                <hr class="separator">
+                <a href="#" class="profile-link">
+                    <i class="fa-regular fa-user"></i> Mi cuenta
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+                  </html>
+
 
